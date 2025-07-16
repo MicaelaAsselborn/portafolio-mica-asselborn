@@ -7,6 +7,7 @@
     box-sizing: border-box;
     /* outline: 1px solid white; */
     margin: 0;
+    scroll-behavior: smooth;
 }
 html{
     
@@ -47,9 +48,37 @@ h2{
     font-size: 40px;
     color: var(--lila);
 }
+p{
+    font-size: 20px;
+}
 #inicio{
     padding: 300px 20px;
     height: 100vh;
     height: 100dvh;
-    font-size: 20px;
+}
+#sobre-mi{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: var(--lila);
+    align-items: center;
+    height: 100vh;
+    height: 100dvh;
+}
+#presentacion{
+    margin: 0 40px;
+}
+#presentacion h2{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+img{
+    border-radius: 15px;
+}
+#presentacion-texto{
+    width: 60%;
+    padding: 20px;
+}
+#presentacion-texto p{
+    padding: 10px;
 }
