@@ -45,12 +45,13 @@ section{
 }
 h1{
     color: #d0c2fc;
-    font-size: 60px;
+    font-size: 70px;
     padding: 10px 0;
 }
 h2{
     font-size: 40px;
     color: var(--lila);
+    font-size: 60px;
 }
 p{
     font-size: 20px;
@@ -72,7 +73,6 @@ p{
     margin: 0 40px;
 }
 #presentacion h2{
-    font-size: 60px;
     margin-bottom: 60px;
 }
 #presentacion img{
@@ -88,6 +88,9 @@ p{
 
 /* PROYECTOS */
 
+#proyectos{
+    gap: 10px
+}
 #contenedor-proyectos{
     display: flex;
     flex-wrap: wrap;
@@ -114,10 +117,16 @@ p{
     flex-direction: column;
     align-items: center;
 }
-#certificados h2{
+#certificados h2, #contacto h2{
     margin: 100px;
 }
 li{
     font-size: 40px;
     list-style: none;
+}
+
+/* CONTACTO */
+
+#contacto{
+    text-align: center;
 }
