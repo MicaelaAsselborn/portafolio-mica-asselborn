@@ -39,6 +39,10 @@ nav{
     z-index: 1;
     background-color: var(--azul-oscuro);
 }
+section{
+    height: 100vh;
+    height: 100dvh;
+}
 h1{
     color: #d0c2fc;
     font-size: 60px;
@@ -53,17 +57,16 @@ p{
 }
 #inicio{
     padding: 300px 20px;
-    height: 100vh;
-    height: 100dvh;
 }
-#sobre-mi{
+
+/* SOBRE MI */
+
+#sobre-mi, #proyectos{
     display: flex;
     justify-content: space-between;
     text-align: center;
     color: var(--lila);
     align-items: center;
-    height: 100vh;
-    height: 100dvh;
 }
 #presentacion{
     margin: 0 40px;
@@ -72,7 +75,7 @@ p{
     font-size: 60px;
     margin-bottom: 60px;
 }
-img{
+#presentacion img{
     border-radius: 15px;
 }
 #presentacion-texto{
@@ -81,4 +84,25 @@ img{
 }
 #presentacion-texto p{
     padding: 10px;
+}
+
+/* PROYECTOS */
+
+#contenedor-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+#contenedor-proyectos div{
+    width: 200px;
+    height: 210px;
+    background-color: var(--violeta);
+    color: var(--azul-oscuro);
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid var(--lila);
+}
+#contenedor-proyectos div:hover{
+    transform: rotate(5deg);
 }
