@@ -106,3 +106,18 @@ p{
 #contenedor-proyectos div:hover{
     transform: rotate(5deg);
 }
+
+/* CERTIFICADOS */
+
+#certificados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#certificados h2{
+    margin: 100px;
+}
+li{
+    font-size: 40px;
+    list-style: none;
+}
